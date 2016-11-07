@@ -23,5 +23,9 @@ module.exports = {
     cache: {
       path: path.resolve(__dirname, '../test/cache')
     }
+  },
+  security: {
+    enabled : false,
+    secret : 'keyboard_cat'
   }
 };
